@@ -1,0 +1,1 @@
+package com.pack.tmf.service; import com.pack.tmf.dto.User; public interface UserService{ User findByEmail(String email); void register(User u); }
